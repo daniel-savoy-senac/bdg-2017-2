@@ -2,8 +2,8 @@
 
 function mudar(evt){
   let tam = window.innerWidth;
-  let cor = evt.x;
-
+  let cor = (evt.x / tam) * 360;
+  console.log(cor);
   document.body.style.background = `hsl(${cor},100%,50%)`;
 }
 
