@@ -4,4 +4,4 @@ function mudar(evt){
   document.body.style.background = "red";
 }
 
-window.addEventListener("load", mudar);
+window.addEventListener("click", mudar);
