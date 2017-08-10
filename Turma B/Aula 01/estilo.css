@@ -1,6 +1,6 @@
 p {
-  color: white;
-  background: green;
+  color: hsl(60, 100%, 50%);
+  background: hsl(60, 100%, 30%);
   font-family: Verdana;
   font-size: 30pt;
 }
