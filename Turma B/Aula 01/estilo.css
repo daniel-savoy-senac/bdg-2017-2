@@ -1,6 +1,8 @@
 p {
-  color: red;
+  color: white;
   background: green;
+  font-family: Verdana;
+  font-size: 30pt;
 }
 
 body {
