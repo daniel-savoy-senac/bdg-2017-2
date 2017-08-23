@@ -1,4 +1,8 @@
 .zumbi {
+
+  border: red 10px solid;
+  border-width: 10px 10px 10px 120px;
+  border-color: red green red pink;
   background: hsl(0, 0%, 30%);
   width: 300px;
   color: white;
@@ -11,6 +15,8 @@
   /*padding-left: 300px;*/
   text-align: center;
 
-  border: red 10px solid;
+}
 
+.zumbi img {
+  width: 300px;
 }
