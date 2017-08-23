@@ -1,6 +1,9 @@
 body {
-  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png");
+  background:
+    linear-gradient(hsla(240,0%,50%,0),hsla(240,0%,50%,.6)),
+    url("https://www.toptal.com/designers/subtlepatterns/patterns/doodles.png");
   font-family: Verdana, sans-serif;
+  background-attachment: fixed;
 }
 
 article {
