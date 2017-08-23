@@ -1,0 +1,16 @@
+.zumbi {
+  background: hsl(0, 0%, 30%);
+  width: 300px;
+  color: white;
+  /*padding: 20px;*/
+  /*padding: 10px 50px;*/
+  padding: 10px 60px 40px 120px;
+  /*padding-top: 10px;*/
+  padding-right: 120px;
+  padding-bottom: 20px;
+  /*padding-left: 300px;*/
+  text-align: center;
+
+  border: red 10px solid;
+
+}
