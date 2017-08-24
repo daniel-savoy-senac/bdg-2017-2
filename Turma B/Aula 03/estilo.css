@@ -1,0 +1,24 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+article:nth-child(1) {
+  background: hsl(60, 100%, 50%);
+  width: 300px;
+  padding: 30px;
+  /*padding: 60px 30px;*/ /*vertical, horizontal*/
+  /*padding: 10px 30px 60px 5px;*/ /*cima, dir, baixo, esq*/
+  /*padding-top: 50px;
+  padding-right: 130px;
+  padding-bottom: 10px;
+  padding-left: 20px;*/
+  /*border: transparent 100px solid;
+  border-color: red green rgb(140,80,50) hsl(30, 100%, 50%);
+  border-style: double inset dashed groove;
+  border-width: 2px 30px 40px 10px;*/
+
+  border-radius: 50%;
+
+
+}
