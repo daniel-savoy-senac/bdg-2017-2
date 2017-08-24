@@ -2,6 +2,12 @@ body * {
   background: rgba(0,0,0,.25);
 }
 
+article:nth-child(1){
+  right: -30px;
+  bottom: 0px;
+  position: absolute;
+}
+
 article {
   border: 1px solid red;
   width: 50px;
@@ -16,4 +22,5 @@ div{
 section {
   width: 400px;
   height: 400px;
+  position: relative;
 }
