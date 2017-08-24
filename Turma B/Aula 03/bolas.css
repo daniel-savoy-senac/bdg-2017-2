@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(hsl(30,100%,100%), hsl(30,100%, 50%));
+  background-attachment: fixed;
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  color: hsla(30, 100%, 40%, 1);
+}
+
+article {
+  background: hsla(0,0%,100%,0);
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  border-radius: 40px;
+  transition: .5s;
+}
+
+article:hover {
+  background: hsla(0,0%,100%,.4);
+}
+
+article img {
+  object-fit: cover;
+  object-position: top center;
+  width: 150px;
+  height: 150px;
+  border: 5px solid hsla(30, 100%, 40%, 1);
+  box-shadow: 2px 2px 2px hsla(0,0%,0%,0.5);
+  border-radius: 50%;
+  transition: .5s;
+}
+
+article:hover img {
+  transform: scale(1.2) rotate(360deg);
+  box-shadow: 6px 6px 6px hsla(0,0%,0%,0.5);
+}
+
+article h2, article .sinopse {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: .5s;
+}
+
+article h2 {
+  font-size: 25px;
+  color: white;
+  width: 300px;
+
+  background: hsl(30,100%,50%);
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+article:hover h2 {
+  opacity : 1;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+article .sinopse {
+  font-size: 12px;
+}
+
+article:hover .sinopse {
+  opacity : 1;
+  height: 30px;
+  margin-top: 20px;
+}
