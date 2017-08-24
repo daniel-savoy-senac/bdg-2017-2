@@ -3,9 +3,12 @@ body * {
 }
 
 article:nth-child(1){
-  right: -30px;
-  bottom: 0px;
-  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: fixed;
 }
 
 article {
