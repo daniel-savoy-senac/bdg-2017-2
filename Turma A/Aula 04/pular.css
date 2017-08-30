@@ -1,0 +1,40 @@
+@keyframes vpular{
+  0%{
+    bottom:0;
+  }
+  50%{
+    bottom: 300px;
+  }
+  100%{
+    bottom:0;
+  }
+}
+@keyframes hpular{
+  0%{
+    left:0;
+  }
+  100%{
+    left: 600px;
+  }
+}
+
+div{
+  width: 200px;
+  height: 200px;
+  position: fixed;
+}
+
+div:nth-child(1){
+  background: red;
+  bottom: 0;
+  left: 300px;
+}
+
+div:nth-child(2){
+  background: skyblue;
+  border-radius: 50%;
+  bottom: 0;
+  left: 0px;
+  animation: hpular 1s linear ,
+  vpular 1s ease-in-out;
+}
