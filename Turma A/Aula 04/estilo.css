@@ -1,6 +1,16 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 div:nth-child(1){
   width: 200px;
   height: 200px;
   background: red;
   position: fixed;
+}
+
+body:hover div:nth-child(1){
+  transform: translate(120px, 120px);
 }
