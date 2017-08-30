@@ -2,11 +2,8 @@
   0%{
     bottom:0;
   }
-  50%{
-    bottom: 300px;
-  }
   100%{
-    bottom:0;
+    bottom: 300px;
   }
 }
 @keyframes hpular{
@@ -35,6 +32,6 @@ div:nth-child(2){
   border-radius: 50%;
   bottom: 0;
   left: 0px;
-  animation: hpular 1s linear ,
-  vpular 1s ease-in-out;
+  animation:  hpular 1s linear forwards,
+              vpular .5s 2 cubic-bezier(0,.33,.67,1) alternate forwards;
 }
