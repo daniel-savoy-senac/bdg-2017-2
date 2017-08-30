@@ -4,18 +4,27 @@ html, body{
   height: 100%;
 }
 
-div:nth-child(1){
+div{
   width: 200px;
   height: 200px;
   background: red;
   position: fixed;
+}
+
+body:hover div{
+  transform: rotate(90deg);
+  background: green;
+  height: 800px;
+  border-radius: 50%;
+}
+
+div:nth-child(1){
+  transition: 1s 2s;
+}
+
+div:nth-child(2){
   transition: 1s;
 }
-
-body:hover div:nth-child(1){
-  transform: rotate(90deg) translate(120px, 120px);
-}
-
 
 
 
