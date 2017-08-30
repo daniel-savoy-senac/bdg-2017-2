@@ -9,7 +9,8 @@ div{
 }
 
 body{
-  background: skyblue;
+  background: hsl(200, 100%, 20%);
+  transition: 5s;
 }
 
 .grama{
@@ -18,4 +19,57 @@ body{
   left: 0;
   right: 0;
   height: 60px;
+}
+
+.tronco{
+  background: brown;
+  bottom: 20px;
+  height: 200px;
+  width: 60px;
+  left: 300px;
+}
+
+.folhas{
+  background: green;
+  width: 250px;
+  height: 200px;
+  left: 205px;
+  bottom: 200px;
+  border-radius: 40%;
+}
+
+.maca{
+  width: 30px;
+  height: 30px;
+  background: red;
+  border-radius: 50%;
+  left: 255px;
+  bottom: 210px;
+  transition: .5s 3s ease-in;
+}
+
+body:hover .maca{
+  bottom: 20px;
+}
+
+.sol{
+  width: 300px;
+  height: 300px;
+  background: orange;
+  border-radius: 50%;
+  right: 200px;
+  bottom: -200px;
+  transition: 5s;
+}
+
+body:hover .sol{
+  width: 250px;
+  height: 250px;
+  right: 300px;
+  background: yellow;
+  bottom: 400px;
+}
+
+body:hover{
+  background: skyblue;
 }
