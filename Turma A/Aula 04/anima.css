@@ -1,8 +1,34 @@
-@keyframes
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+@keyframes girar{
+  0%{
+    transform: rotate(0deg);
+    background: red;
+    bottom: 0;
+  }
+  30%{
+    background: black;
+    bottom: 300px;
+  }
+  100%{
+    transform: rotate(180deg);
+    background: red;
+    bottom: 0px;
+  }
+}
 
 div:nth-child(1){
   background: red;
   width: 200px;
   height: 200px;
-  animation: girar 1s;
+  position: fixed;
+
+}
+
+body:hover div:nth-child(1){
+  animation: girar 1s infinite alternate;
 }
