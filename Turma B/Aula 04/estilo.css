@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+div {
+  background: red;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+}
+
+div:nth-child(1){
+  transition: 1s ease;
+}
+
+div:nth-child(2){
+  transition: 1s cubic-bezier(.71,-1.08,.27,2.21);
+}
+
+body:hover div{
+  transform: rotate(45deg) translateX(200px) scale(1.5);
+  background: black;
+}
