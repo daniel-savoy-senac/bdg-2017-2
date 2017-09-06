@@ -1,0 +1,12 @@
+@keyframes giro01 {
+  0% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+.cotovelo.esq {
+  animation: giro01 .8s infinite alternate;
+}
