@@ -1,0 +1,59 @@
+article {
+  background: hsla(0, 0%, 0%, 0.1);
+  position: fixed;
+  width: 400px;
+  height: 200px;
+  bottom: 20px;
+}
+
+div {
+  background: hsla(0, 0%, 0%, 0.4);
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.cabeca {
+  right: 0;
+  top: 0;
+  transform-origin: left center;
+  transition: 1s;
+}
+
+.boneco:hover .cabeca{
+  transform: rotate(-45deg);
+}
+
+.corpo {
+  width: 300px;
+  height: 150px;
+  left: 0;
+  bottom: 25px;
+}
+
+.pata {
+  height: 100px;
+  width: 50px;
+  bottom: 0;
+  transform-origin: center top;
+}
+
+.dir{
+  background: hsla(0, 100%, 50%, 0.4);
+}
+
+.esq.tras {
+  margin-left: 40px;
+}
+.esq.frente {
+  margin-left: -40px;
+}
+
+
+.frente {
+  left: 200px;
+}
+
+.tras {
+  left: 20px;
+}
