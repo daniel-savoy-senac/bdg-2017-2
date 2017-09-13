@@ -1,0 +1,25 @@
+.personagem {
+  background: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: fixed;
+  transition: 1s;
+  bottom: 500px;
+}
+
+body.cena1 .personagem{
+  background: green;
+  width: 50px;
+  height: 50px;
+}
+
+body.cena2 .personagem{
+  background: orange;
+}
+
+body.cena3 .personagem{
+  bottom: 0;
+  width: 300px;
+  height: 10px;
+}
