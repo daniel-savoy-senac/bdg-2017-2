@@ -1,7 +1,7 @@
 .personagem {
-  background: red;
-  width: 200px;
-  height: 200px;
+  background: green;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   position: fixed;
   transition: 1s;
@@ -9,16 +9,16 @@
 }
 
 body.cena1 .personagem{
-  background: green;
-  width: 50px;
-  height: 50px;
 }
 
 body.cena2 .personagem{
   background: orange;
+  width: 200px;
+  height: 200px;
 }
 
 body.cena3 .personagem{
+  background: red;
   bottom: 0;
   width: 300px;
   height: 10px;
