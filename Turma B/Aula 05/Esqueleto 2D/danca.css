@@ -1,0 +1,12 @@
+@keyframes vaivolta{
+  0%{ transform: rotateX(0deg); }
+  100%{ transform: rotateX(-70deg); }
+}
+
+.bones{
+  perspective: 500px;
+}
+
+.tronco{
+  animation: vaivolta 1s infinite alternate;
+}
