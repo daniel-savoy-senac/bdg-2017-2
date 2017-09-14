@@ -4,7 +4,7 @@
 }
 
 .personagem>div:not(.corpo){
-  animation: mexer 1s infinite alternate;
+  animation: mexer 1s linear infinite alternate;
 }
 
 .personagem div.esq{
