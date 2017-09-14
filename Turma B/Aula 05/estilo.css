@@ -1,8 +1,18 @@
+@keyframes mexer{
+  0%{transform: rotate(20deg);}
+  100%{transform: rotate(-20deg);}
+}
+
+.personagem>div:not(.corpo){
+  animation: mexer 1s infinite alternate;
+}
+
 .personagem{
-  background: red;
   width: 500px;
   height: 500px;
   position: fixed;
+  bottom: 10px;
+  left: 10px;
 }
 
 .personagem div{
@@ -51,7 +61,7 @@
   background: url("perna.png");
   width: 76px;
   height: 120px;
-  top: 370px;
+  top: 380px;
   transform-origin: center top;
 }
 
