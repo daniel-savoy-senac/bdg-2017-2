@@ -7,6 +7,10 @@
   animation: mexer 1s infinite alternate;
 }
 
+.personagem div.esq{
+  animation-delay: -0.5s;
+}
+
 .personagem{
   width: 500px;
   height: 500px;
