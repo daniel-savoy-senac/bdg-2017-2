@@ -1,0 +1,33 @@
+.personagem{
+  background: red;
+  width: 500px;
+  height: 500px;
+  position: fixed;
+}
+
+.personagem div{
+  position: absolute;
+}
+
+.cabeca{
+  background: url("cabeca.png");
+  width: 247px;
+  height: 207px;
+  top: 0;
+  left: 126px;
+  z-index: 1;
+  transition: 1s;
+  transform-origin: center bottom;
+}
+
+body:hover .cabeca{
+  transform: rotate(30deg);
+}
+
+.corpo{
+  background: url("corpo.png");
+  width: 270px;
+  height: 251px;
+  top: 180px;
+  left: 115px;
+}
