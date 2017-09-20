@@ -5,7 +5,7 @@ let velo = 4;
 function localizar(evt){
   mouse.x = evt.x;
   mouse.y = evt.y;
-  console.log(mouse.x+":"+mouse.y);
+  //console.log(mouse.x+":"+mouse.y);
 }
 
 function seguir(){
