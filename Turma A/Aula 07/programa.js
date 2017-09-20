@@ -1,4 +1,4 @@
-let me = {x: 0, y: 0};
+let me = {x: 500, y: 200};
 let mouse = {x: 0, y: 0};
 let velo = 4;
 
@@ -17,4 +17,15 @@ function seguir(){
   return {x: me.x + des.x, y: me.y + des.y};
 }
 
+function andar(){
+  me = seguir();
+  let box = document.querySelector(".stalker");
+  box.style.top = me.y + "px";
+  box.style.left = me.x + "px";
+  window.requestAnimationFrame(andar);
+}
+
+
+
 window.addEventListener("mousemove", localizar);
+window.requestAnimationFrame(andar);
