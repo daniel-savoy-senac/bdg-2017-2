@@ -1,0 +1,98 @@
+@keyframes mexer{
+  0%{transform: rotate(20deg);}
+  100%{transform: rotate(-20deg);}
+}
+
+.personagem>div:not(.corpo){
+  animation: mexer 1s linear infinite alternate;
+}
+
+.personagem div.esq{
+  animation-delay: -0.5s;
+}
+
+.personagem{
+  width: 500px;
+  height: 500px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  transition: 1s;
+}
+
+.personagem div{
+  position: absolute;
+}
+
+.cabeca{
+  background: url("cabeca.png");
+  width: 247px;
+  height: 207px;
+  top: 0;
+  left: 126px;
+  z-index: 2;
+  transition: 1s;
+  transform-origin: center bottom;
+}
+
+.corpo{
+  background: url("corpo.png");
+  width: 270px;
+  height: 251px;
+  top: 180px;
+  left: 115px;
+  z-index: 1;
+}
+
+.braco{
+  width: 120px;
+  height: 76px;
+  top: 220px;
+}
+
+.braco.esq{
+  background: url("braco-esq.png");
+  transform-origin: left center;
+  left: 350px;
+}
+
+.braco.dir{
+  background: url("braco-dir.png");
+  transform-origin: right center;
+  right: 350px;
+}
+
+.perna{
+  background: url("perna.png");
+  width: 76px;
+  height: 120px;
+  top: 380px;
+  transform-origin: center top;
+}
+
+.perna.esq{
+  left: 280px;
+}
+
+.perna.dir{
+  right: 280px;
+}
+
+
+
+body.inicio .personagem{
+  bottom: 10px;
+  left: 10px;
+}
+
+body.meio .personagem{
+  left: 400px;
+}
+
+body.fim .personagem{
+  bottom: 900px;
+}
+
+body.epilogo .personagem{
+  opacity: 0.3;
+}
