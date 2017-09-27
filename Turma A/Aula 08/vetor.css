@@ -1,0 +1,44 @@
+@keyframes animar{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(720deg);
+  }
+}
+
+svg{
+  position: fixed;
+  top:0;
+  bottom:0;
+  left: 0;
+  right:0;
+}
+
+polygon{
+  animation: animar 2s infinite alternate;
+}
+
+.st0{
+  fill:#FF5F3F;
+}
+
+.st1{
+  fill: hsl(120, 100%, 50%);
+}
+
+.st2{
+  fill:#FFE82A;
+}
+
+.st3{
+  fill:#FF2A9B;
+}
+
+.st4{
+  fill:#1AFF00;
+}
+
+.st5{
+  fill:#3FF6FF;
+}
