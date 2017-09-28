@@ -1,4 +1,4 @@
-let stalker = {x:0, y:0, v:10};
+let stalker = {x:500, y:500, v:10};
 let mouse = {x:0, y:0};
 
 function print(obj){
@@ -14,7 +14,22 @@ function alvo(evt){
 }
 
 function animar(){
-  stalker.x = stalker.x + 10;
+
+  let diffX = (mouse.x - stalker.x);
+  let diffY = (mouse.y - stalker.y);
+
+  let angulo = Math.atan2(diffY, diffX);
+  let descX = Math.cos(angulo) * stalker.v;
+  let descY = Math.sin(angulo) * stalker.v;
+
+  stalker.x = stalker.x - descX;
+  stalker.y = stalker.y - descY;
+
+  // MOLA
+  //stalker.x = stalker.x + diffX * 0.03;
+  //stalker.y = stalker.y + diffY * 0.03;
+
+
   print(stalker);
   window.requestAnimationFrame(animar);
 }
