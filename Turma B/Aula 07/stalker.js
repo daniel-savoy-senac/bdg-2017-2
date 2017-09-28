@@ -22,8 +22,8 @@ function animar(){
   let descX = Math.cos(angulo) * stalker.v;
   let descY = Math.sin(angulo) * stalker.v;
 
-  stalker.x = stalker.x - descX;
-  stalker.y = stalker.y - descY;
+  stalker.x = stalker.x + descX;
+  stalker.y = stalker.y + descY;
 
   // MOLA
   //stalker.x = stalker.x + diffX * 0.03;
