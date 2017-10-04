@@ -1,12 +1,18 @@
 function animar(evt){
 	let tempo = evt.x / window.innerWidth;
+	girar(".cotovelo.dir", 60);
+}
+
+function girar(query, angulo){
+	let junta = document.querySelector(query);
+	junta.style.transform = `rotate(${angulo}deg)`;
 }
 
 function lerp(tempo, A, B){
 	return B * tempo + A * (1 - tempo);
 }
 
-window.addEventListener("mousemove", animar);
+window.addEventListener("click", animar);
 
 
 
