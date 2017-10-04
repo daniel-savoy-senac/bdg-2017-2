@@ -1,0 +1,18 @@
+.pescoco>div{
+  background: url("rick.png") bottom center no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+  box-shadow: none;
+}
+
+@keyframes giro01 {
+  0%, 60% { transform: rotate(-20deg); }
+  20%, 100% { transform: rotate(20deg); }
+  30% { transform: rotate(-50deg); }
+  70% { transform: rotate(40deg); }
+}
+
+.ombro, .cotovelo, .tronco, .perna.dir {
+  animation: giro01 2s infinite alternate;
+}
