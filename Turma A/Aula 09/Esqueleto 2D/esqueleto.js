@@ -2,6 +2,11 @@ function animar(evt){
 	let tempo = evt.x / window.innerWidth;
 	let a = lerp(tempo, -60, 60);
 	girar(".cotovelo.dir", a);
+
+	girar(".cotovelo.esq", lerp(tempo, -120, 0));
+	girar(".perna.esq", lerp(tempo, 300, 0));
+	girar(".joelho.esq", lerp(tempo, 120, 0));
+	girar(".pe.esq", lerp(tempo, -40, 0));
 }
 
 function girar(query, angulo){
