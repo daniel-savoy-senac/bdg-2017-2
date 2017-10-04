@@ -1,7 +1,15 @@
-function girar(e){
+function animar(evt){
+	let tempo = evt.x / window.innerWidth;
+}
+
+window.addEventListener("mousemove", animar);
+
+
+
+/*function girar(e){
 	var bone = e.target.parentNode;
 	if(bone.tagName.toUpperCase() != "SECTION") return;
-	
+
 	var a = Math.random() * 120 - 60;
 	bone.style.transform = "rotate("+a+"deg)";
 }
@@ -11,4 +19,4 @@ function iniciar(){
 	bones.addEventListener("click",girar);
 }
 
-window.addEventListener("load",iniciar);
+window.addEventListener("load",iniciar);*/
