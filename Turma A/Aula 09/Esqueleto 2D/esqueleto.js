@@ -1,6 +1,7 @@
 function animar(evt){
 	let tempo = evt.x / window.innerWidth;
-	girar(".cotovelo.dir", 60);
+	let a = lerp(tempo, -60, 60);
+	girar(".cotovelo.dir", a);
 }
 
 function girar(query, angulo){
@@ -12,7 +13,7 @@ function lerp(tempo, A, B){
 	return B * tempo + A * (1 - tempo);
 }
 
-window.addEventListener("click", animar);
+window.addEventListener("mousemove", animar);
 
 
 
