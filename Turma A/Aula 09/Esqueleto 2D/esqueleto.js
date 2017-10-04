@@ -2,6 +2,10 @@ function animar(evt){
 	let tempo = evt.x / window.innerWidth;
 }
 
+function lerp(tempo, A, B){
+	return B * tempo + A * (1 - tempo);
+}
+
 window.addEventListener("mousemove", animar);
 
 
