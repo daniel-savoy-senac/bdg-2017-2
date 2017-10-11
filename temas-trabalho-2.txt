@@ -1,0 +1,11 @@
+céu 2, 3, 5
+contínuas
+delgadas 4
+desejo 2, 4
+memória 3
+mortos 3, 2
+nome
+ocultas
+olhos 1, 2, 3, 5
+símbolos 2, 4
+trocas 2
