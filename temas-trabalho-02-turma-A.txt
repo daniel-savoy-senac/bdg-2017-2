@@ -1,20 +1,20 @@
-juliana - céu 3
-thayna - desejo 2
-rodrigo - delgadas 4
+juliana - céu 3, nome 1
+thayna - desejo 2, delgadas 1
+rodrigo - delgadas 4, ocultas 2
 yasmin
-raquel - ocultas 1
-cristiano - mortos 3
-jessica - mortos 2
-bárbara - contínuas 1
-lhoys - desejo 4
-beatriz carvalho - ceu 5
-beatriz futigami - olhos 5
-bianca - torcas 2;
-guilherme - olhos 3
-heloysa - memoria 3
+raquel - ocultas 1, céu 4
+cristiano - mortos 3, trocas 1
+jessica - mortos 2, trocas 3
+bárbara - contínuas 1, memória 1
+lhoys - desejo 4, nome 2
+beatriz carvalho - ceu 5, nome 4
+beatriz futigami - olhos 5, delgadas 5
+bianca - trocas 2, memoria 2;
+guilherme - olhos 3, símbolos 5
+heloysa - memoria 3, continuas 5
 gustavo ferreira
-mauricio - símbolos 4
-flávia - olhos 2
-giovana - ceu 2
-rebeca - olhos 1
-carol - símbolos 2
+mauricio - símbolos 4, continuas 3
+flávia - olhos 2, desejo 1
+giovana - ceu 2, mortos 1
+rebeca - olhos 1, ocultas 4
+carol - símbolos 2, ocultas 5
