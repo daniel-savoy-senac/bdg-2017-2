@@ -1,0 +1,12 @@
+.caixa {
+  width: 200px;
+  height: 200px;
+  background: red;
+  position: fixed;
+}
+
+.rolagem {
+  position: absolute;
+  width: 1px;
+  height: 5000px;
+}
