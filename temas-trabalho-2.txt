@@ -1,11 +1,11 @@
-4 céu 2, 3, 5
-3 5 contínuas 1
-1 5 delgadas 4
-1 desejo 2, 4
-1 2 memória 3
-1 mortos 3, 2
-1 2 4 nome
-2 4 5 ocultas 1
-olhos 1, 2, 3, 5
-5 símbolos 2, 4
-1 3 trocas 2
+céu 1 2 3
+contínuas 1 2 3
+delgadas 1 2 3
+desejo 1 2 3 4
+memória 1 2 5
+mortos 1 2 3 4 5
+nome 2 3 4
+ocultas 3 4 5
+olhos 1 2 3
+símbolos 1 2 3
+trocas 1 2 3 4 5
