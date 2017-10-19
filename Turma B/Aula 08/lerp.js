@@ -7,7 +7,9 @@ function lerp(tempo, A, B) {
 function tempoMouse(evt) {
   tm = evt.x / window.innerWidth;
   let a = lerp(tm, 45, 720);
-  console.log(a);
+
+  let caixa = document.querySelector(".caixa");
+  caixa.style.transform = `rotate(${a}deg)`;
 }
 
 window.addEventListener("mousemove", tempoMouse);
