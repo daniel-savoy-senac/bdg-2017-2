@@ -6,6 +6,14 @@
   position: fixed;
 }
 
+.caixa2 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  top: 10px;
+  position: fixed;
+}
+
 .rolagem {
   position: relative;
   width: 1px;
